@@ -1,20 +1,23 @@
 # Task 1: project, operation or programme?
 
-| #   | Initiative                                                                                                 | Temporary? | Unique? | Coordinated? | Class | Justification |
-| --- | ---------------------------------------------------------------------------------------------------------- | ---------- | ------- | ------------ | ----- | ------------- |
-| 1   | Build the Realtime Quiz platform and pilot it with 50 students in week 14                                  |            |         |              |       |               |
-| 2   | Run the nightly backup of the gicitc.com PostgreSQL database                                               |            |         |              |       |               |
-| 3   | Move the department's three web servers to a new Linode region before 15 December                          |            |         |              |       |               |
-| 4   | Answer helpdesk tickets within the 4-hour service level                                                    |            |         |              |       |               |
-| 5   | "Digital classroom": Realtime Quiz, LMS upgrade and lecture capture sharing one login and one grade export |            |         |              |       |               |
-| 6   | Apply the monthly security patches to the VPS                                                              |            |         |              |       |               |
-| 7   | Add multi-node scaling (RabbitMQ relay, Redis registry) to Realtime Quiz next semester                     |            |         |              |       |               |
-| 8   | Operate the Realtime Quiz platform after go-live: password resets, restarts, monitoring                    |            |         |              |       |               |
-| 9   | Write and publish the department's annual IT report for the dean by 31 January                             |            |         |              |       |               |
-| 10  | Replace 40 wireless access points in two buildings during the summer break                                 |            |         |              |       |               |
+| #   | Initiative                                                                                                 | Temporary? | Unique? | Coordinated? | Class | Justification                                                                                                    |
+| --- | ---------------------------------------------------------------------------------------------------------- | ---------- | ------- | ------------ | ----- | ---------------------------------------------------------------------------------------------------------------- |
+| 1   | Build the Realtime Quiz platform and pilot it with 50 students in week 14                                  | yes        | yes     | no           | Project   | It has a definite end at the week-14 pilot and the platform is a unique result that does not exist before. |
+| 2   | Run the nightly backup of the gicitc.com PostgreSQL database                                               | no         | no      | no           | Operation | Repeats every night with the same output and no end date; it is part of keeping the service running. |
+| 3   | Move the department's three web servers to a new Linode region before 15 December                          | yes        | yes     | no           | Project   | The fixed end date of 15 December and the one-time relocation of the servers make it temporary and unique. |
+| 4   | Answer helpdesk tickets within the 4-hour service level                                                    | no         | no      | no           | Operation | It runs continuously against a service level with no end date, and each ticket is handled the same way as part of running the service. |
+| 5   | "Digital classroom": Realtime Quiz, LMS upgrade and lecture capture sharing one login and one grade export | yes        | yes     | yes          | Programme | Three related projects; the shared login and grade export are a benefit that none of them delivers alone, so they are coordinated. |
+| 6   | Apply the monthly security patches to the VPS                                                              | no         | no      | no           | Operation | It repeats every month with no end date and produces no unique result; patching is routine maintenance of the live VPS. |
+| 7   | Add multi-node scaling (RabbitMQ relay, Redis registry) to Realtime Quiz next semester                     | yes        | yes     | no           | Project   | It is scheduled as a separate endeavour next semester with its own end, and the multi-node architecture does not exist before. |
+| 8   | Operate the Realtime Quiz platform after go-live: password resets, restarts, monitoring                    | no         | no      | no           | Operation | It is the ongoing, repetitive run-work after go-live with no end date, whose purpose is to keep the service available. |
+| 9   | Write and publish the department's annual IT report for the dean by 31 January                             | yes        | yes     | no           | Project   | Each report is unique and must be finished by the fixed 31 January deadline, even though the activity recurs every year. |
+| 10  | Replace 40 wireless access points in two buildings during the summer break                                 | yes        | yes     | no           | Project   | The replacement is a one-time result that is finished when the 40 access points are installed within the summer-break window. |
 
 ## Grey zones
-TODO: two rows that could go either way and what would settle them.
+
+- **Row 7 (multi-node scaling next semester)** can be argued either way: as a Project if the sponsor funds it as a separate endeavour next semester with its own end date; as an Operation if it is only a maintenance release folded into running the existing platform. What would settle it: whether it has a separate authorisation and budget with a defined "done", or is treated as routine enhancement with no end.
+- **Row 9 (annual IT report by 31 January)** can be argued either way: as an Operation because the department repeats it every year; as a small yearly Project because each report is unique and carries a hard deadline. What would settle it: who authorised it, whether there is a budget for that year's report, and whether "done" means published to the dean by 31 January.
 
 ## What our project hands over
-TODO: three sentences.
+
+At go-live in week 14, IT operations (the VPS administrator at gicitc.com) operates the Realtime Quiz platform for the instructors and students. The team hands over a runbook, the production Docker Compose file, and a working PostgreSQL backup job so operations can restart the service, reset passwords and restore data without the team. Operations also needs the monitoring access and the list of known risks (campus proxy vs WebSocket, timer races at question close) to keep the platform inside its quality targets.
