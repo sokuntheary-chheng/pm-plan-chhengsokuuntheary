@@ -26,7 +26,7 @@ Instructors currently spend about one hour per week each marking quiz answers by
 In scope:
 - Quiz authoring with multiple-choice questions
 - Live session engine with a server-authoritative timer per question
-- Real-time scoring and leaderboard over WebSocket
+- Real-time scoring and live leaderboard
 - Authentication and role management for instructors and students
 - Analytics and reporting dashboard
 - Export of results to CSV and PDF
