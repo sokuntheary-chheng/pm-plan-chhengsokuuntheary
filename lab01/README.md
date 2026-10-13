@@ -2,7 +2,7 @@
 
 | Field   | Value |
 | ------- | ----- |
-| Version | 0.1   |
+| Version | 0.2   |
 | Date    | 2026-10-13 |
 | Author  | Chheng Sokuntheary |
 | Status  | Draft |
@@ -18,7 +18,7 @@
 | lab01/business-case.csv       | cost and benefit lines with amounts matching written formulas |
 | lab01/process-groups.md       | five process groups over 14 weeks, Mermaid Gantt, three phase gates |
 | lab01/README.md               | this lab record: document control, files, inputs, change log |
-| lab01/post-mortem.md          | challenge skeleton (not attempted in this submission) |
+| lab01/post-mortem.md          | CampusPay wallet post-mortem: timeline, failures by process group, five charter-linked commitments |
 
 ## Inputs reused
 | Input                                   | Version / tag |
@@ -29,3 +29,4 @@
 | Date | Version | Change                                                |
 | ---- | ------- | ----------------------------------------------------- |
 | 2026-10-13 | 0.1     | Lab-01: charter, stakeholders, business case, process-group mapping added |
+| 2026-10-13 | 0.2     | Lab-01 challenge: post-mortem of CampusPay wallet added (lab01/post-mortem.md) |
