@@ -1,9 +1,12 @@
 id,name_or_group,role,category,interest,influence,interest_level,expectation
-S01,Head of the IT department,Sponsor,sponsor,TODO,H,H,TODO
-S02,TODO name,Project manager (supervising lecturer),pm,TODO,H,H,TODO
-S03,Student team (4),Developers and testers,team,TODO,M,H,TODO
-S04,Pilot students (50),End users,user,TODO,L,M,TODO
-S05,TODO,,,,,,
-S06,TODO,,,,,,
-S07,TODO,,,,,,
-S08,TODO,,,,,,
+S01,Head of the IT department,Sponsor,sponsor,a reusable quiz tool that saves marking time and shows the department innovates,H,H,The sponsor expects the MVP demo in week 7 and a pilot with 50 students in week 14 within the 200 USD cash cap.
+S02,Tal Tongsreng,Project manager (supervising lecturer),pm,delivery of the charter commitments inside 490 h and 200 USD,H,H,The PM expects written sponsor decisions on scope changes within 5 working days and attendance at the week-7 and week-13 gates.
+S03,Student team (4),Developers and testers,team,a graded capstone experience and a working product to show employers,M,H,Each student receives a defined role (backend real-time frontend QA/DevOps) and a tagged demo at the end of every build phase.
+S04,Pilot students (50),End users,user,a fair live quiz with instant feedback and a visible leaderboard,L,M,Each pilot student joins one live session with a 6-character code in week 14 and sees their own score and the leaderboard.
+S05,Lecturers who will run quizzes,End users (instructors),user,quizzes they can reuse without weekly marking load,M,M,Lecturers receive an account and a short training session before the pilot and can export results to CSV and PDF after it.
+S06,IT operations (VPS admin),Runs gicitc.com hosting and backups,operations,no surprises at go-live; a runbook and a backup job,M,M,IT operations receives a deployment checklist and docker-compose.prod.yml two weeks before the pilot.
+S07,Campus network administrator,Approves WebSocket through the campus proxy,operations,a stable campus network without unsupported protocols,H,M,The network administrator validates WebSocket or SockJS through the campus proxy by week 5 and approves the firewall change.
+S08,Software Engineering lecturer,Owns the capstone course,governance,clear learning outcomes assessed fairly against the project,M,M,The Software Engineering lecturer receives the tagged phase demos and assesses the capstone against the charter objectives.
+S09,Data protection officer,Approves storage of student data,governance,student names and results stored on campus with a retention rule,H,L,The data protection officer receives a one-page data description before the pilot and can block the pilot without it.
+S10,Dean or faculty management,Approves adoption next semester,governance,evidence that the platform is worth adopting across the department,H,M,The dean receives the pilot results and an adoption recommendation by the end of week 14.
+S11,Quiz SaaS vendor,Contingency supplier if option B of the business case is triggered,external,licence revenue if the department buys instead of building,L,L,The vendor supplies education pricing and a trial account within five working days if the sponsor triggers the week-7 review gate.
