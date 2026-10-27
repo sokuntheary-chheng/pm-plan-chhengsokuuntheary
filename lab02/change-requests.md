@@ -31,12 +31,12 @@ Capacity lost: 2 weeks × 40 h = **80 h**. Capacity falls from 560 h to 480 h; t
 
 | Option | Time impact | Cost impact | Quality impact | Fixed side? |
 | ------ | ----------- | ----------- | -------------- | ----------- |
-| A · Keep Must + Should; defer all Could and retain Won't out of pilot scope | 0 weeks | 0 USD; removes 82 h Could and keeps the 12 h Won't excluded, leaving 410 h Must + Should and 70 h capacity | O3 (≤ 500 ms p95), O4 (20 concurrent sessions × 100 participants) and O5 (≥ 80 % coverage, green CI) remain required; F10, F14 and F15 are deferred. | ok |
-| B · Buy 24 h to deliver all 504 h | 0 weeks | 24 h × 12 USD/h = 288 USD; 0 h contingency remains | Planned features remain, but O3 (≤ 500 ms p95) and O5 (≥ 80 % coverage, green CI) have no contingency to protect them. | violates C-03 |
-| C · Buy 80 h to restore the original 56 h contingency | 0 weeks | 80 h × 12 USD/h = 960 USD | Planned features and contingency remain, protecting O3 (≤ 500 ms p95) and O5 (≥ 80 % coverage, green CI). | violates C-03 |
+| A · Keep Must + Should; defer all Could and retain Won't out of pilot scope | 0 weeks | 0 USD; removes 82 h Could and keeps the 12 h Won't excluded, leaving 410 h Must + Should and 70 h capacity | O3 (≤ 500 ms p95), O4 (20 concurrent sessions × 100 participants) and O5 (≥ 80 % coverage, green CI) remain required; F10, F14 and F15 are deferred; S09 must approve data handling before W12. | ok only if C-05 is validated by W12; otherwise blocked |
+| B · Buy 24 h to deliver all 504 h | 0 weeks | 24 h × 12 USD/h = 288 USD; 0 h contingency remains | Planned features remain, but O3 (≤ 500 ms p95) and O5 (≥ 80 % coverage, green CI) have no contingency to protect them; S09 approval is still required before W12. | violates C-03 |
+| C · Buy 80 h to restore the original 56 h contingency | 0 weeks | 80 h × 12 USD/h = 960 USD | Planned features and contingency remain, protecting O3 (≤ 500 ms p95) and O5 (≥ 80 % coverage, green CI); S09 approval is still required before W12. | violates C-03 |
 | D · Keep the pilot in week 14 | +2 weeks | 0 USD; 0 added paid hours | O3 (≤ 500 ms p95) and O5 (≥ 80 % coverage, green CI) remain feasible with the planned buffer, but the dean's week-12 date is missed. | violates C-01 |
 
-**Recommendation:** A. It keeps the dean's week-12 date and the 200 USD cap, with 410 h of Must + Should work inside 480 h capacity and 70 h remaining. B is rejected because 288 USD exceeds C-03 and leaves no contingency. C is rejected because 960 USD exceeds C-03. D is rejected because it violates the new fixed C-01 pilot date.
+**Recommendation:** A, conditional on S09 completing the C-05 data approval before W12. It keeps the dean's week-12 date and the 200 USD cap, with 410 h of Must + Should work inside 480 h capacity and 70 h remaining. B is rejected because 288 USD exceeds C-03 and leaves no contingency. C is rejected because 960 USD exceeds C-03. D is rejected because it violates the new fixed C-01 pilot date.
 
 ## Process
 
