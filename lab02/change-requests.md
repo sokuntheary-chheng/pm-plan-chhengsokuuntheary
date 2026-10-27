@@ -24,18 +24,18 @@ No eligible Should/Could feature or combination totals exactly 40 h, so no unequ
 
 **Recommendation:** A. It exchanges one Should feature for one Could feature at the same 12 h estimate and keeps the fixed date and cash cap. B is rejected because it exceeds C-03. C is rejected because an exact-hours, in-baseline swap is available.
 
-## CR-03 · Semester shortened by 2 weeks: pilot in week 12 · requested by dean
+## CR-03 · Proposed semester shortening: move pilot from week 14 to week 12 · requested by dean; sponsor approval pending
 
-Capacity lost: 2 weeks × 40 h = **80 h**. Capacity falls from 560 h to 480 h; the 10 % contingency falls from 56 h to 48 h, losing **8 h** of contingency. The 504 h planned-work baseline is **24 h over** the new 480 h capacity before risk.
+If approved, the two-week shortening loses 2 weeks × 40 h = **80 h**. Capacity would fall from 560 h to 480 h; the 10 % contingency would fall from 56 h to 48 h, losing **8 h** of contingency. The 504 h planned-work baseline would be **24 h over** the new 480 h capacity before risk. Until sponsor approval, the W14 date and 560 h capacity remain the baseline.
 
 | Option | Time impact | Cost impact | Quality impact | Fixed side? |
 | ------ | ----------- | ----------- | -------------- | ----------- |
-| A · Keep Must + Should; defer all Could and retain Won't out of pilot scope | 0 weeks | 0 USD; removes 82 h Could and keeps the 12 h Won't excluded, leaving 410 h Must + Should and 70 h capacity | O3 (≤ 500 ms p95), O4 (20 concurrent sessions × 100 participants) and O5 (≥ 80 % coverage, green CI) remain required; F10, F14 and F15 are deferred; S09 must approve data handling before W12. | ok only if C-05 is validated by W12; otherwise blocked |
-| B · Buy 24 h to deliver all 504 h | 0 weeks | 24 h × 12 USD/h = 288 USD; 0 h contingency remains | Planned features remain, but O3 (≤ 500 ms p95) and O5 (≥ 80 % coverage, green CI) have no contingency to protect them; S09 approval is still required before W12. | violates C-03 |
-| C · Buy 80 h to restore the original 56 h contingency | 0 weeks | 80 h × 12 USD/h = 960 USD | Planned features and contingency remain, protecting O3 (≤ 500 ms p95) and O5 (≥ 80 % coverage, green CI); S09 approval is still required before W12. | violates C-03 |
-| D · Keep the pilot in week 14 | +2 weeks | 0 USD; 0 added paid hours | O3 (≤ 500 ms p95) and O5 (≥ 80 % coverage, green CI) remain feasible with the planned buffer, but the dean's week-12 date is missed. | violates C-01 |
+| A · Move pilot to proposed W12; defer all Could and retain Won't out of pilot scope | 0 weeks vs proposed W12 | 0 USD; removes 82 h Could and keeps 12 h Won't excluded, leaving 410 h Must + Should and 70 h of the proposed 480 h capacity | O3 (≤ 500 ms p95), O4 (20 concurrent sessions × 100 participants) and O5 (≥ 80 % coverage, green CI) remain required; S09's W13 approval must be advanced before W12. | violates C-01 unless approved |
+| B · Move pilot to proposed W12; buy 24 h to deliver all 504 h | 0 weeks vs proposed W12 | 24 h × 12 USD/h = 288 USD; 0 h contingency remains | Planned features remain, but O3 (≤ 500 ms p95) and O5 (≥ 80 % coverage, green CI) have no contingency; S09's W13 approval must be advanced before W12. | violates C-01 unless approved; violates C-03 |
+| C · Move pilot to proposed W12; buy 80 h to restore the original 56 h contingency | 0 weeks vs proposed W12 | 80 h × 12 USD/h = 960 USD | Planned features and contingency remain, protecting O3 (≤ 500 ms p95) and O5 (≥ 80 % coverage, green CI); S09's W13 approval must be advanced before W12. | violates C-01 unless approved; violates C-03 |
+| D · Keep the pilot in baseline W14 | 0 weeks vs C-01; +2 weeks vs proposed W12 | 0 USD; 0 added paid hours | O3 (≤ 500 ms p95), O4 (20 concurrent sessions × 100 participants) and O5 (≥ 80 % coverage, green CI) remain in the planned baseline; S09 approval remains due at W13 before W14. | ok |
 
-**Recommendation:** A, conditional on S09 completing the C-05 data approval before W12. It keeps the dean's week-12 date and the 200 USD cap, with 410 h of Must + Should work inside 480 h capacity and 70 h remaining. B is rejected because 288 USD exceeds C-03 and leaves no contingency. C is rejected because 960 USD exceeds C-03. D is rejected because it violates the new fixed C-01 pilot date.
+**Recommendation:** D. Keep the existing W14 baseline, preserving the 504 h planned work and 56 h contingency without exceeding C-01 or C-03. A is rejected because W12 moves fixed C-01 without sponsor approval and requires S09's W13 approval to be advanced. B is rejected because it moves C-01 and costs 288 USD, exceeding C-03. C is rejected because it moves C-01 and costs 960 USD, exceeding C-03.
 
 ## Process
 
