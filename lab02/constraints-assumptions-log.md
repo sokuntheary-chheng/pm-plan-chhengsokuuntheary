@@ -12,5 +12,6 @@
 | A-03 | Assumption | S09 can complete student-data approval before the W12 pilot, earlier than the current W13 readiness item. | Owner: Data protection officer | W10 → R-03 |
 | A-04 | Assumption | The instructor can confirm 50 pilot participants for the W12 session. | Owner: Instructor | W10 → R-04 |
 | A-05 | Assumption | F11's 24 h CSV export includes the results needed to prepare a spreadsheet summary if F10 analytics is deferred. | Owner: PM | W10 → R-05 |
+| A-06 | Assumption | The W10 open-day demo can use clearly labeled mocked analytics, built in 8 h without presenting mock results as live pilot data. | Owner: PM | W9 → R-10 |
 
 Review at every milestone. Overdue assumption = open issue.
