@@ -7,13 +7,12 @@ Capacity 40 h/week · planned work 504 h · contingency 56 h · paid capacity 12
 | Option | Time impact | Cost impact | Quality impact | Fixed side? |
 | ------ | ----------- | ----------- | -------------- | ----------- |
 | A · Slip the pilot | +1 week (40 h of calendar capacity) | 0 USD; 40 h remains to deliver | F14 is delivered; O3 (≤ 500 ms p95) and O5 (≥ 80 % coverage, green CI) remain targets, but the week-14 pilot date is missed. | violates C-01 |
-| B · Swap out eligible scope | 0 weeks | 0 USD; defer F10 (30 h, Could) + F15 (12 h, Could) = 42 h for 40 h of chat; 2 h extra capacity | F14 is added; O3 (≤ 500 ms p95) and O5 (≥ 80 % coverage, green CI) stay as quality floors while F10 and F15 are deferred. | ok |
-| C · Buy capacity | 0 weeks | 40 h × 12 USD/h = 480 USD | F14 can be added without planned scope reduction; O3 (≤ 500 ms p95) and O5 (≥ 80 % coverage, green CI) remain required. | violates C-03 |
-| D · Decline | 0 weeks | 0 USD; 0 additional h | F14 remains Could and is not committed; O3 (≤ 500 ms p95) and O5 (≥ 80 % coverage, green CI) are unchanged. | ok |
+| B · Buy capacity | 0 weeks | 40 h × 12 USD/h = 480 USD | F14 can be added without planned scope reduction; O3 (≤ 500 ms p95) and O5 (≥ 80 % coverage, green CI) remain required. | violates C-03 |
+| C · Decline | 0 weeks | 0 USD; 0 additional h | F14 remains Could and is not committed; O3 (≤ 500 ms p95) and O5 (≥ 80 % coverage, green CI) are unchanged. | ok |
 
-No set of other eligible Should/Could feature estimates totals exactly 40 h; the nearest two-feature bundle is 42 h (F10 + F15), so option B is disclosed as a 2 h over-swap rather than an invented estimate.
+No eligible Should/Could feature or combination totals exactly 40 h, so no unequal swap is presented as an equal-hours option.
 
-**Recommendation:** B. It keeps the date and cash cap, preserves all Must features and leaves 2 h of additional capacity; F10 and F15 are both Could in `moscow.md`. A is rejected because it moves fixed C-01. C is rejected because it exceeds fixed C-03. D is rejected because it does not deliver the sponsor's request.
+**Recommendation:** C. It keeps the date and cash cap and preserves the existing 8 Must features. A is rejected because it moves fixed C-01. B is rejected because it exceeds fixed C-03.
 
 ## CR-02 · Anonymous joining (F15, 12 h) · requested by student representative
 
