@@ -6,7 +6,7 @@
 
 ## Context
 
-The challenge scenario asks for every Should feature by W10 while retaining the W14 pilot. It is a separate role-play from the unresolved CR-03 W12 calendar case; this record does not change that case. For this role-play, W14 is fixed by the challenge prompt, while C-01's W12 CR-03 case remains separate. C-02 keeps all 8 Must features (300 h), C-03 caps cash at 200 USD, C-04 retains the 20-session × 100-participant single-server and ≤ 500 ms p95 targets, and C-05 retains S09's campus-data approval before the pilot.
+The challenge scenario asks for every Should feature by W10 while retaining the W14 pilot. It is a separate role-play from the unresolved CR-03 W12 calendar case; this record does not change that case. For this role-play, W14 is fixed by the challenge prompt, while C-01 (W14 pilot baseline); the W12 CR-03 case stays separate. C-02 keeps all 8 Must features (300 h), C-03 caps cash at 200 USD, C-04 retains the 20-session × 100-participant single-server and ≤ 500 ms p95 targets, and C-05 retains S09's campus-data approval before the pilot.
 
 After two sprints, 148 h of the 300 h Must total are complete; 152 h remain. The five Should features total 110 h. W5-W10 capacity is 6 × 40 = 240 h, so Must plus all Should requires 262 h and is short by 22 h (0.55 weeks), before preserving any of the 56 h contingency.
 
@@ -26,7 +26,7 @@ Approve option 1 for this role-play. Schedule F16 (30 h) and F11 (24 h) by W10; 
 
 - Add an Open Day Demo milestone at W10; preserve the W14 pilot.
 - Keep all feature estimates unchanged; the W10 demo uses 206 h of 240 h capacity, leaving 34 h.
-- Add risk R-10: the audience may mistake mocked or incomplete analytics for production results; label mock data and state that full Should work remains due at W14.
+- Add risk R-10: audience may mistake the unfinished W10 build for the full Should scope; state that F09, F12 and F13 are due at W14.
 - No new Won't items; F17 remains the existing Won't item.
 - Actual sponsor approval and confirmation of C-05 readiness are still required.
 
