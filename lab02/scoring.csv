@@ -1,6 +1,6 @@
 criterion,weight,build,buy_saas,hybrid,notes
 Learning value for the capstone,40,5,1,3,weights fixed before scoring
-Cost within the 200 USD cash budget,25,3,5,5,weights fixed before scoring
+Cost within the 200 USD cash budget,25,3,5,3,"weights fixed before scoring; Hybrid cost: 100 + 15 + 36 = 151 USD (75.5 %)"
 Time to the week-14 pilot,20,3,5,4,weights fixed before scoring
 Fit to the 47 functional requirements,15,5,2,4,weights fixed before scoring
 Weight check,"=SUM(B2:B5)",,,,must equal 100
