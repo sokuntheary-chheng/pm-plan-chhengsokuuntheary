@@ -11,6 +11,7 @@ The sponsor controls the project with the four gates on 2026-10-19, 2026-11-16, 
 | lab03/project-profile.md           | five scored selection criteria, weights summing to 100 and the profile value 3.05 (hybrid band) |
 | lab03/approach-comparison.md       | waterfall vs pure Scrum vs hybrid with risks, sponsor control, first working quiz and sensitivity tests |
 | lab03/approach-scoring.csv         | weighted scoring sheet, Task 1 weights reused, last line holds the three computed scores |
+| lab03/approach-scoring.xlsx        | the same scoring sheet as a spreadsheet with live SUMPRODUCT formulas in row 8 |
 | lab03/tailoring-decision-record.md | ADR-style record: context, options, decision, consequences, tailoring table and the gates table |
 | lab03/life-cycle.mmd               | Mermaid gantt of the 14 weeks with the four sprints of 14 days and the four `:milestone` gates |
 | lab03/life-cycle.svg               | exported diagram of life-cycle.mmd |
@@ -21,6 +22,7 @@ The sponsor controls the project with the four gates on 2026-10-19, 2026-11-16, 
 | lab03/challenge/burndown.mmd       | xychart-beta of the ideal and actual remaining points for D0 to D10 |
 | lab03/challenge/retrospective-template.md | retrospective sections filled once for sprint 1 with burndown-derived actions |
 | lab03/challenge/prince2-comparison.md | twelve hybrid elements mapped to PRINCE2 7 plus what PRINCE2 adds and what it makes heavier |
+| lab03/README.md                | this lab record: the chosen approach, the file table, inputs reused and the change log |
 
 ## Inputs reused
 
