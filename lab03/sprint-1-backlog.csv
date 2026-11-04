@@ -1,0 +1,8 @@
+id,item,fr_ids,priority,points,owner,acceptance_criteria
+B-01,Project skeleton with CI Docker Flyway and a WebSocket health check,FR-S5,Must,3,A,"Given a clone, when mvnw verify runs in CI, then the pipeline is green and the WebSocket health check answers a ping"
+B-02,Register with email name and role,FR-A1,Must,3,B,"Given valid data, when I register as an instructor, then I can log in with that role"
+B-03,Log in with a JWT of 12 h expiry,FR-A2,Must,5,C,"Given a registered user, when I log in, then a JWT is issued that is accepted for 12 h and rejected after that"
+B-04,Role checks for instructor and student pages,FR-A3,Must,3,D,"Given a student session, when I open an instructor page, then I get a 403, and with an instructor session I see the page"
+B-05,Create quiz with title description and visibility,FR-Q1,Must,5,A,"Given an instructor, when I save a new quiz with a title and a visibility, then it appears in my quiz list with that visibility"
+B-06,Add edit reorder and delete questions,FR-Q2,Must,8,B,"Given a quiz with two questions, when I move the second question to first place, then the new order is saved and is the same after a reload"
+B-07,Single- and multi-answer questions,FR-Q4,Must,3,C,"Given a question with three options and two correct answers, when I select both correct options, then it scores full, and when I select one, then it scores zero"
